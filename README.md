@@ -15,6 +15,28 @@ to explore how modern data ingestion pipelines can be built using Python.
 
 ---
 
+## Repository Structure
+
+google-patents-ingestion/
+│
+├── scrape_google_patents.py
+├── patent_dump/
+│ └── US6285999B1.json
+└── README.md
+
+---
+
+## Why This Project Exists
+
+Modern AI workflows often require structured technical documents as input.
+Patents are complex, inconsistently formatted, and difficult to ingest
+reliably.
+
+This project explores how lightweight tooling can convert patent webpages
+into structured data suitable for automated analysis and experimentation.
+
+---
+
 ## Overview
 
 The script performs the following steps:
@@ -134,3 +156,16 @@ understand how each step works.
 - Google Patents page structure may change over time.
 - For large-scale systems, official bulk data sources should be considered.
 - This project is intended for experimentation and learning purposes.
+
+---
+
+## Future Directions
+
+Possible extensions include:
+
+- Batch ingestion of patent families
+- HTML snapshot persistence for reproducibility
+- AI-assisted claim analysis
+- Patent comparison workflows
+
+
