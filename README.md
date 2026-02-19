@@ -106,7 +106,7 @@ Enter a Google Patents URL when prompted.
 Output files are saved to a folder named patent_dump in the project directory:
 
 ```
-./patent_dump/<publication_number>.json
+./patent_dump/patent.json
 ```
 
 An example patent_dump folder is included in this repository containing output
