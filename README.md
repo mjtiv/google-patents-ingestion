@@ -80,11 +80,15 @@ python Scraping_Google_Patents_1.4.py
 
 Enter a Google Patents URL when prompted.
 
-Output files are saved to:
+Output files are saved to a folder named patent_dump in the project directory:
 
 ```
 ./patent_dump/<publication_number>.json
 ```
+
+An example patent_dump folder is included in this repository containing output
+generated from Google’s PageRank patent:
+https://patents.google.com/patent/US6285999B1/en?oq=6285999
 
 ---
 
