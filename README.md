@@ -21,7 +21,7 @@ to explore how modern data ingestion pipelines can be built using Python.
 google-patents-ingestion/
 ├── scrape_google_patents.py
 ├── patent_dump/
-│   └── US6285999B1.json
+│   └── patent.json
 └── README.md
 ```
 
